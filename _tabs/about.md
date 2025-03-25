@@ -4,8 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-
 ## Education
-- Korea University
+- Korea University, Seoul, South Korea (2022-Present)
+
+## Research Experiences
+- Research Intern in Computer Vision Lab, Korea Institute of Science and Technology (KAIST) (2024-Present)
