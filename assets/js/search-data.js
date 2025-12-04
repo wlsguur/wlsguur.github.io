@@ -34,7 +34,10 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
-      },{
+      },{id: "news-started-my-ph-d-studies-at-kaist-ai",
+          title: 'Started my Ph.D studies at KAIST AI !',
+          description: "",
+          section: "News",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
