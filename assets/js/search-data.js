@@ -37,6 +37,9 @@ ninja.data = [{
       },{id: "news-started-my-ph-d-studies-at-kaist-ai",
           title: 'Started my Ph.D studies at KAIST AI !',
           description: "",
+          section: "News",},{id: "news-two-papers-accepted-to-cvpr-2026-including-my-first-lead-author-paper",
+          title: '🎉 Two papers accepted to CVPR 2026, including my first lead-author paper!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
