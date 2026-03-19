@@ -40,6 +40,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-to-cvpr-2026-including-my-first-lead-author-paper",
           title: '🎉 Two papers accepted to CVPR 2026, including my first lead-author paper!',
           description: "",
+          section: "News",},{id: "news-the-project-page-and-arxiv-preprint-for-seoul-world-model-are-out",
+          title: 'The project page and arXiv preprint for Seoul World Model are out!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
@@ -53,6 +56,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/wlsguur", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jinhyeok-choi-5938a3344", "_blank");
         },
       },{
       id: 'light-theme',
