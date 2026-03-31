@@ -40,8 +40,8 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-to-cvpr-2026-including-my-first-lead-author-paper",
           title: '🎉 Two papers accepted to CVPR 2026, including my first lead-author paper!',
           description: "",
-          section: "News",},{id: "news-the-project-page-and-arxiv-preprint-for-seoul-world-model-are-out",
-          title: 'The project page and arXiv preprint for Seoul World Model are out!',
+          section: "News",},{id: "news-the-project-page-and-arxiv-preprint-for-seoul-world-model-and-geometric-latent-diffusion-are-out",
+          title: 'The project page and arXiv preprint for Seoul World Model and Geometric Latent...',
           description: "",
           section: "News",},{
         id: 'social-email',
