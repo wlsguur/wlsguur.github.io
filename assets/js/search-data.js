@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "will be updated",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -37,11 +30,11 @@ ninja.data = [{
       },{id: "news-started-my-ph-d-studies-at-kaist-ai",
           title: 'Started my Ph.D studies at KAIST AI !',
           description: "",
-          section: "News",},{id: "news-two-papers-accepted-to-cvpr-2026-including-my-first-lead-author-paper",
-          title: '🎉 Two papers accepted to CVPR 2026, including my first lead-author paper!',
+          section: "News",},{id: "news-two-papers-accepted-to-cvpr-2026-including-my-first-lead-author-paper-cameo",
+          title: '🎉 Two papers accepted to CVPR 2026, including my first lead-author paper CAMEO!...',
           description: "",
-          section: "News",},{id: "news-the-project-page-and-arxiv-preprint-for-seoul-world-model-and-geometric-latent-diffusion-are-out",
-          title: 'The project page and arXiv preprint for Seoul World Model and Geometric Latent...',
+          section: "News",},{id: "news-two-papers-accepted-to-eccv-2026-check-seoul-world-model-and-geometric-latent-diffusion",
+          title: '🎉 Two papers accepted to ECCV 2026! Check Seoul World Model and Geometric...',
           description: "",
           section: "News",},{
         id: 'social-email',
