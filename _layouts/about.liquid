@@ -42,8 +42,31 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
+      {% assign cv_page = site.pages | where: "layout", "cv" | first %}
+      {% assign cv_url = site.data.socials.cv_pdf %}
+      {% if cv_url %}
+        {% unless cv_url contains '://' %}
+          {% assign cv_url = cv_url | prepend: 'assets/pdf/' | relative_url %}
+        {% endunless %}
+      {% elsif cv_page %}
+        {% assign cv_url = cv_page.permalink %}
+      {% endif %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-links">
+          {% for social in site.data.socials %}
+            {% case social[0] %}
+              {% when 'email' %}
+                [<a href="mailto:{{ social[1] | encode_email }}">Email</a>]
+              {% when 'github_username' %}
+                [<a href="https://github.com/{{ social[1] }}" target="_blank" rel="noopener noreferrer">Github</a>]
+              {% when 'linkedin_username' %}
+                [<a href="https://www.linkedin.com/in/{{ social[1] }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>]
+            {% endcase %}
+          {% endfor %}
+          {% if cv_url %}
+            [<a href="{{ cv_url }}" target="_blank" rel="noopener noreferrer">CV</a>]
+          {% endif %}
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

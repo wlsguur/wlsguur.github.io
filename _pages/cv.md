@@ -1,11 +1,12 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
-nav: true
-nav_order: 3
-# cv_pdf: example_pdf.pdf # you can also use external links here
-description: will be updated
+permalink: https://drive.google.com/file/d/1D8gzcfnLooIsL2rQvUXoXRIgBkWbrW7v/view?usp=sharing # /cv/
+title: Curriculum Vitae
+# enable in the menu
+# nav: true
+# nav_order: 3
+# cv_pdf: # you can also use external links here
+description:
 toc:
   sidebar: left
 ---

@@ -414,6 +414,19 @@ ul.task-list input[type="checkbox"] {
 .social {
   text-align: center;
 
+  .contact-links {
+    font-size: 1rem;
+
+    a {
+      color: var(--global-theme-color);
+      // text-decoration: underline;
+
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+  }
+
   .contact-icons {
     font-size: 2rem;
 
@@ -748,9 +761,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;

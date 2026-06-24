@@ -25,6 +25,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Ph.D. student in [KAIST AI](https://gsai.kaist.ac.kr/), Seoul, South Korea, advised by Prof. [Seungryong Kim](https://cvlab.kaist.ac.kr/members/faculty). My main research interest is **3D Vision** and **Generative Models**.
+I am a first-year Ph.D. student at [KAIST AI](https://gsai.kaist.ac.kr/), Seoul, South Korea, advised by Prof. [Seungryong Kim](https://cvlab.kaist.ac.kr/members/faculty). My main research interests lie at the intersection of 3D/4D vision and generative models, especially **multi-view and video diffusion**. Currently, I am focusing on **scaling video diffusion models to understand and simulate the underlying dynamics of the physical world (world models)**.
 
 Prior to joining KAIST, I received the B.S. degree in Computer Science and Engineering at [Korea University](https://www.korea.edu/), Seoul, South Korea.
+
