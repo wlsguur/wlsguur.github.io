@@ -42,7 +42,7 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      {% assign cv_page = site.pages | where: "layout", "cv" | first %}
+      {% assign cv_page = site.pages | where: 'layout', 'cv' | first %}
       {% assign cv_url = site.data.socials.cv_pdf %}
       {% if cv_url %}
         {% unless cv_url contains '://' %}
