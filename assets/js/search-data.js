@@ -36,6 +36,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-to-eccv-2026-check-seoul-world-model-and-geometric-latent-diffusion",
           title: '🎉 Two papers accepted to ECCV 2026! Check Seoul World Model and Geometric...',
           description: "",
+          section: "News",},{id: "news-our-two-recent-papers-morphos-and-geoface-are-now-out-check-out-the-project-pages-for-details",
+          title: '🚀 Our two recent papers, MORPHOS and GeoFace are now out! Check out...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
