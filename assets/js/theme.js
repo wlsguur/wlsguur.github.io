@@ -15,6 +15,7 @@ let toggleThemeSetting = () => {
 // Change the theme setting and apply the theme.
 let setThemeSetting = (themeSetting) => {
   localStorage.setItem("theme", themeSetting);
+  localStorage.setItem("theme-user-set", "true");
 
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
@@ -279,6 +280,11 @@ let determineComputedTheme = () => {
 
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
+  const themeWasExplicitlySet = localStorage.getItem("theme-user-set") === "true";
+
+  if (!themeWasExplicitlySet) {
+    themeSetting = "light";
+  }
 
   setThemeSetting(themeSetting);
 
