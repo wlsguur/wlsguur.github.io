@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🚀 Our two recent papers, [MORPHOS](https://cvlab-kaist.github.io/MORPHOS/) and [GeoFace](https://cvlab-kaist.github.io/GeoFace/) are now out! Check out the project pages for details.
+🚀 My two recent papers, [MORPHOS](https://cvlab-kaist.github.io/MORPHOS/) and [GeoFace](https://cvlab-kaist.github.io/GeoFace/) are now out! Check out the project pages for details.

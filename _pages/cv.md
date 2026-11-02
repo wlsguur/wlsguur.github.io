@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: https://drive.google.com/file/d/1_ls1kx1gowWOLpiEaI3eKCuO3l_yfIM4/view?usp=sharing # /cv/
+permalink: https://drive.google.com/file/d/1FC5JRsX4TfGV38pl-YGLE_5hT3xMRd9g/view?usp=sharing # /cv/
 title: Curriculum Vitae
 # enable in the menu
 # nav: true
